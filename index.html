@@ -1,0 +1,55 @@
+﻿<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Mis Películas</title>
+		<link rel="stylesheet" href="vendor/css/bootstrap.min.css">
+		<link href="https://fonts.googleapis.com/css?family=Bitter|Khula" rel="stylesheet">
+		<link rel="stylesheet" href="module_movies/css/style.css">
+	</head>
+
+	<body>
+
+		<section class="container">
+
+			<h1>Mis Películas</h1>
+			
+			<section>
+
+				<form id="my-form">
+
+					<label for="nombre">Nombre de la Película: </label>
+					<input type="text" class="form-control" id="nombre" placeholder="Nombre">
+				
+				</form>
+
+
+				<div class="botonera">
+
+					<button id="agregar-btn" class="btn btn-primary">Agregar Pelicula</button>
+					<button id="eliminar-btn" class="btn btn-primary">Eliminar Peliculas</button>
+					<button id="ordenar-btn" class="btn btn-primary">Ordenar Peliculas</button>
+					<button id="editar-btn" class="btn btn-primary">Editar Pelicula</button>
+					<button id="guardar-btn" class="btn btn-warning">Guardar cambios</button>
+					<button id="cancelar-btn" class="btn btn-warning">Cancelar</button>
+
+				</div>
+
+			</section>
+
+			<section class="contenedor-peliculas">
+
+				<ul id="peliculas"></ul>
+
+			</section>
+
+		</section>
+
+		<script src="vendor/js/jquery-3.2.1.min.js"></script>
+		<script src="module_movies/js/app.js"></script>
+
+	</body>
+
+</html>
