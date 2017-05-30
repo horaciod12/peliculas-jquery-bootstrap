@@ -26,8 +26,17 @@ ul {
 	padding-left: 5px;
 }
 
+.li {
+	border-top: 1px solid #ddd;
+	padding: 5px;
+}
+
+input[type=checkbox] {
+    margin: 10px 0 0;
+}
+
 .clase {
-	width: 70%;
+	width: 95%;
 	border: none;
 	margin-left: 5px;
 	font-size: 16px;
